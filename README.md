@@ -4,7 +4,7 @@ Gauging the performance of ML models on data from unseen domains at test-time is
 
 <hr>
 This repository contains the codes used to run the experiments presented in our paper "Test-time Assessment of a Model’s Performance on Unseen Domains via Optimal Transport". 
-In this repository we describe how to obtain the data used for our experiments and the commands used to run experiments with different settings.
+In this repository, we describe how to obtain the data used for our experiments and the commands used to run experiments with different settings.
 
 ### Obtaining the data:
     1. For PACS we download the data using the code from https://github.com/facebookresearch/DomainBed.
@@ -15,15 +15,15 @@ In this repository we describe how to obtain the data used for our experiments a
 
 #### Single domain generalization: 
 This folder contains the codes to train a model in a single source domain setting using ERM.
-Within the folder we provide the code for different datasets.
+Within the folder, we provide the code for different datasets.
     
 a. To run the model training with vanilla ERM algorithm, navigate into the specific dataset folder and run the following command 
     
-   ./train_erm.sh 0 
+    ./train_erm.sh 0 
 
 b. To evaluate the correlation between accuracy and TETOT on different unseen domains 
     
-   ./run_eval_corruptions.sh 0 
+    ./run_eval_corruptions.sh 0 
     
         
 <hr>
@@ -34,11 +34,11 @@ Within the folder, we provide the code for different datasets.
 
 a. To run the model training with vanilla ERM algorithm, navigate into the specific dataset folder and run the following command 
     
-   ./train_erm_M.sh 0 
+    ./train_erm_M.sh 0 
 
 b. To evaluate the correlation between accuracy and TETOT on different unseen domains 
     
-   ./run_eval_corruptions_M.sh 0 
+    ./run_eval_corruptions_M.sh 0 
     
 #### Citing
 
