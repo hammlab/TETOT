@@ -45,6 +45,13 @@ b. To evaluate the correlation between accuracy and TETOT on different unseen do
 If you find this useful for your work, please consider citing
 <pre>
 <code>
-
+@misc{mehra2024testtime,
+      title={Test-time Assessment of a Model's Performance on Unseen Domains via Optimal Transport}, 
+      author={Akshay Mehra and Yunbei Zhang and Jihun Hamm},
+      year={2024},
+      eprint={2405.01451},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 </code>
 </pre>
